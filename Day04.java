@@ -5,9 +5,12 @@ public class Day04 {
         System.out.print("Nim: D0224330 \n");
         System.out.print("Kelas: D \n");
         
+        String nama = "Ahmad Gibran";
+        int umur = 18;
+        int tinggi_badan = 165;
+        int berat_badan = 47;
         
-        
-        System.out.printf("Nama: %s | Umur = %d | Tinggi_badan = %d cm%n | Berat_badan = %d kg%n" , "Ahmad Gibran", 18, 165, 47);
+        System.out.printf("Nama: %s | Umur = %d Tahun | Tinggi badan = %d cm%n | Berat badan = %d kg%n" , nama,umur,tinggi_badan,berat_badan);
     }
     
 }
