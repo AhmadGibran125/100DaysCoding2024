@@ -5,7 +5,7 @@ public class Day05 {
                                                 * pesan sambutan
                                                 */
     
-    // Sambut Mada depan yang cerah
+    // Sambut masa depan yang cerah
             /*
             * Kejujuran 
             */
