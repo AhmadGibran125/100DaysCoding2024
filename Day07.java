@@ -2,15 +2,10 @@ package Coding100Days;
 public class Day07 {
     public static void main(String[] args) {
         
-        String nama = "Ahmad Gibran"; //Deklarasi String
-        int umur = 18;                //Deklarasi Integral
-        double tinggi = 165.10;       //Deklarasi Double 
-        char inisial = 'G';           //Deklarasi karakter
-        
-        
-       
-        System.out.printf("Nama: %s\nUmur: %d Tahun\nTinggi: %s cm\nInisial: %s\n " ,nama,umur,tinggi,inisial); //Output
-    
+        String nama = "Ahmad Gibran"; //Deklarasi dan inisialisasi String
+        int umur = 18;                //Deklarasi dan inisialisasi Integral
+        double tinggi = 165.10;       //Deklarasi dan inisialisasi Double 
+        char inisial = 'G';           //Deklarasi dan inisialisasi karakter
     }
     
 }
