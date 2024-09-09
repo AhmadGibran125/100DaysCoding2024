@@ -9,7 +9,7 @@ public class Day08 {
         //Output
         System.out.println("Point awal : " + point );
         
-        //update harga
+        //update point
         point += 2;
       
         
