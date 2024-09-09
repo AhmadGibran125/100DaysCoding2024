@@ -4,17 +4,17 @@ public class Day08 {
         //Variable Update
         
         //Point awal
-        int point = 8;
+        int nilai = 8;
         
         //Output
-        System.out.println("Point awal : " + point );
+        System.out.println("Nilai awal : " + nilai + " point");
         
         //update point
-        point += 2;
+        nilai += 2;
       
         
         //Output
-        System.out.println("Total point : " + point);
+        System.out.println("Pembaruan Nilai : " + nilai + " point");
         
     }
     
