@@ -10,7 +10,7 @@ public class Day08 {
         System.out.println("Nilai awal : " + nilai + " point");
         
         //update point
-        nilai += 2;
+        int nilai = 10;
       
         
         //Output
