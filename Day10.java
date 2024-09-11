@@ -2,13 +2,13 @@ package Coding100Days;
 public class Day10 {
     public static void main(String[] args) {
         
-        byte a = 10;
-        byte b = 20;
-        byte c = 30;
+        byte Min = -128;
+        byte Max = 127;
         
-        System.out.println(" nilai a : " + (c-b));
-        System.out.println(" nilai b : " + (c-a));
-        System.out.println(" nilai c : " + (a+b));
+        
+        System.out.println(" Minimum : " + Min);
+        System.out.println(" Maksimum : " + Max);
+        
     }
     
 }
