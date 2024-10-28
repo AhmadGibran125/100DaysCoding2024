@@ -7,8 +7,7 @@ public class Day57 {
         
         // Looping menggunakan while 
         while (angka < 10){
-            System.out.println("Nilai awal :"+angka);
-            System.out.println("Niali Angka : " + angka);
+           System.out.println("Niali Angka : " + angka);
             angka++; //increment  
         }
         System.out.println("Looping Sudah Selesai Nilai akhir : "+ angka);
