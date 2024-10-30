@@ -7,10 +7,6 @@ public class Day59 {
         for (String fruit : fruits) {
             System.out.print(fruit+"  ");     
         }
-        System.out.println(" ");
-        String teks = "Halo Dunia";
-        for (int i = 0; i < teks.length(); i++) {
-            System.out.println("Karakter pada TEKS "+i+" : "+teks.charAt(i));    
-        }
+        
     }
 }
