@@ -25,15 +25,13 @@ public class Day62 {
         int nilai = in.nextInt();
         do {
             System.out.println(nilai);
-            if (nilai %2 == 0) {
-                System.out.println("program dijalankan");
-            }else if (nilai %2 == 1){
-                System.out.println("program dihentikan");
+            if (nilai == 5) {
                 break;
             }
             nilai++;
-        }while (true);
+        }while (nilai < 20);
         
         
     }
 }
+
