@@ -13,7 +13,7 @@ public class Day_79 {
     // Override metode toString
     @Override
     public String toString() {
-        return "Buah[ buah = " + buah + ", warna = " + warna + " ]";
+        return "Buah [ " + buah + " ] , Warna [ " + warna + " ]";
     }
 
     public static void main(String[] args) {
