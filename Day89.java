@@ -1,7 +1,3 @@
-package Coding100day;
-
-import java.util.Scanner;
-
 public class Day89 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -23,10 +19,11 @@ public class Day89 {
         System.out.print("Mau ubah indeks berapa kak ? ");
         int inde = in.nextInt();
         in.nextLine();
-        inde -=1;
-        if (inde >= 0 && inde < kon) {
+       
+        if (inde >=  1&& inde <= kon) {
             
-            System.out.print(inde+1+" . ");
+            System.out.print(inde+" . ");
+            inde-=1;
              ar[inde] = in.nextLine();
              System.out.println("Proses.....");
         }else {
