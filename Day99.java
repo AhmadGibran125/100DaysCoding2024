@@ -31,17 +31,17 @@ public class Day99 {
                     return;
                 } else {
                     hasil = a / b;
-
                 }
                 break;
             case '%':
-                hasil = a % b;
-                break;
+                    hasil = (a / b)*100;
+                    System.out.println(hasil+"%");
+                    return;
+               
             default:
                 System.out.print("Errorrrrrr");
                 return;
         }
-
         char has = in.next().charAt(0);
         switch (has) {
             case '=':
@@ -51,7 +51,6 @@ public class Day99 {
                 System.out.println("Hanya Melakukan sekali operator saja");
                 return;
         }
-
         in.close();
     }
 }
