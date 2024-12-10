@@ -15,7 +15,7 @@ public class Day100 {
         String salam = "";
         if (waktu.isBefore(LocalTime.NOON)) {
             salam = "Selamat Pagi";
-        }else if (waktu.isBefore(LocalTime.of(17,00))){
+        }else if (waktu.isBefore(LocalTime.of(17,01))){
             salam = "Selamat Siang";
         }else{
             salam = "Selamat Malam";
