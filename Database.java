@@ -123,6 +123,8 @@ public class Database {
         boolean status = false;
         if (!data.isEmpty()){
             data.remove(index);
+            save();
+            status = true;
         }
         return status;
     }
