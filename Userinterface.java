@@ -46,9 +46,10 @@ public class Userinterface {
                     if (status==true){
                         System.out.println("DATA BERHASIL DITAMBAHKAN");
                     }else{
-                        System.out.println("GAGAl MENAMBAHKAN");
+                        System.err.println("GAGAl MENAMBAHKAN");
                         System.out.println("NIM "+nim+" SUDAH ADA");
                     }
+                    System.out.println("---------------------------------------------");
                     break;
                 case "r":
                     System.out.println("Read");
