@@ -1,5 +1,3 @@
-import javax.xml.crypto.Data;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Userinterface {
@@ -30,17 +28,17 @@ public class Userinterface {
                     System.out.println("Create");
                     System.out.println("---------------------------------------------");
                     System.out.println("INPUT DATA BARU");
-                    System.out.print("NIM        :");
+                    System.out.print("NIM        : ");
                     String nim = in.nextLine();
-                    System.out.print("NAMA       :");
+                    System.out.print("NAMA       : ");
                     String nama = in.nextLine();
-                    System.out.print("ALAMAT     :");
+                    System.out.print("ALAMAT     : ");
                     String alamat = in.nextLine();
-                    System.out.print("SEMESTER   :");
+                    System.out.print("SEMESTER   : ");
                     int sem = in.nextInt();
-                    System.out.print("SKS        :");
+                    System.out.print("SKS        : ");
                     int sk = in.nextInt();
-                    System.out.print("IPK        :");
+                    System.out.print("IPK        : ");
                     double ip = in.nextDouble();
                     in.nextLine();
                     System.out.println("---------------------------------------------");
@@ -67,17 +65,17 @@ public class Userinterface {
                         System.out.println("MENGUPDAT DATA "+ db.getData().get(index));
                         System.out.println("---------------------------------------------");
                         System.out.println("INPUT DATA BARU");
-                        System.out.print("NIM        :");
+                        System.out.print("NIM        : ");
                         nim = in.nextLine();
-                        System.out.print("NAMA       :");
+                        System.out.print("NAMA       : ");
                         nama = in.nextLine();
-                        System.out.print("ALAMAT     :");
+                        System.out.print("ALAMAT     : ");
                         alamat = in.nextLine();
-                        System.out.print("SEMESTER   :");
+                        System.out.print("SEMESTER   : ");
                         sem = in.nextInt();
-                        System.out.print("SKS        :");
+                        System.out.print("SKS        : ");
                         sk = in.nextInt();
-                        System.out.print("IPK        :");
+                        System.out.print("IPK        : ");
                         ip = in.nextDouble();
                         in.nextLine();
                         System.out.println("---------------------------------------------");
@@ -99,10 +97,12 @@ public class Userinterface {
                     key = in.nextLine();
                     index = db.search(key);
                     if (index >= 0){
-                        System.out.println("YAKIN ? "+db.getData().get(index));
+                        System.out.println("YAKIN ? MAU MENGHAPUS "+db.getData().get(index));
+                        System.out.print("YA / NO : ");
                         pilih = in.nextLine();
                         if (pilih.equalsIgnoreCase("YA")){
                             status=db.delate(index);
+                            System.out.println("DATA BERHASIL DI HAPUS DARI DAFTAR");
                         }
                     }else{
                         System.err.println("NIM YANG ANDA INPUT "+ key + " TIDAK ADA DALAM DAFTAR");
@@ -117,7 +117,6 @@ public class Userinterface {
                         System.exit(0);
                     }
                     break;
-
             }
         }
     }
